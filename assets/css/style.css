@@ -322,3 +322,10 @@ input{
     font-weight: 600;
     cursor: pointer;
 }
+#closeForm2{
+    position: absolute;
+    top: 1%;
+    right: 3%;
+    font-weight: 600;
+    cursor: pointer;
+}
