@@ -56,6 +56,55 @@
 .card_2{
     margin-left: 1.5rem;
 }
+.item_title{
+    display: none;
+}
+.sidebar_items ul li span{
+    display: none;
+}
+.sidebar_items ul{
+    display: block;
+    margin: 2rem auto;
+}
+.sidebar{
+    width:15%;
+    padding: 1rem;
+}
+.sidebar_title h3 span{
+    display: none;
+}
+.sidebar_title h3{
+    font-size: 2rem;
+    padding: 0 0.3rem;
+}
+.sidebar_items ul li i{
+    font-size: 30px;
+}
+.sidebar_items ul li{
+    margin: 1.5rem 0;
+}
+.sidebar_down {
+    position: fixed;
+    bottom: 0.5%;
+}
+.card{
+    margin-left: 0;
+}
+.new_bot span{
+    display: none;
+}
+.new_bot button{
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: var(--sec-text-color);
+    background-color: var(--hover-color);
+    border: none;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+.form_bot{
+    left: 55%;
+}
 }
 @media screen and (min-width:800px) {
     .title h3{
@@ -157,6 +206,48 @@
         margin-right: 15rem;
     }
     .f_hr{
+        width: 400px;
+    }
+    .sidebar{
+        padding: 2rem;
+    }
+    .sidebar_items{
+        margin: 2rem 0;
+    }
+    .item_title h4{
+        font-size: 0.7rem;
+        color: #ccc;
+    }
+    .sidebar_items ul{
+        margin: 1rem 0;
+    }
+    .sidebar_items ul li {
+        margin: 0.2rem 0;
+        cursor: pointer;
+        padding: 0.6rem;
+        margin-left: -0.6rem;
+    }
+    .sidebar_items ul li:hover{
+        background-color: var(--hover-color);
+        color: var(--sec-text-color);
+        border-radius: 10px;
+    }
+    .sidebar_down{
+        position: fixed;
+        bottom: 0.5%;
+    }
+    .new_bot button{
+        margin: 1rem 0;
+        padding: 0.5rem 2rem;
+        border: none;
+        border-radius: 5px;
+        background-color: var(--hover-color);
+        color: var(--sec-text-color);
+    }
+    .overview_cards{
+        display: flex;
+    }
+    .form_bot{
         width: 400px;
     }
 }
